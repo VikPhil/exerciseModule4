@@ -17,21 +17,21 @@ public class Input {
 	public void setTheTimeHour(Watch watch) {
 		System.out.print("Часы: ");
 		
-		watch.setHour(Error.checkingTheRangeHour(Error.checkingTheInput()));
+		watch.setHour(Check.checkingTheRangeHour(Check.checkingTheInput()));
 			
 	}
 	
 	public void setTheTimeMinute(Watch watch) {
 		System.out.print("Минуты: ");
 		
-		watch.setMinute(Error.checkingTheRangeMinSec(Error.checkingTheInput()));
+		watch.setMinute(Check.checkingTheRangeMinSec(Check.checkingTheInput()));
 			
 	}
 	
 	public void setTheTimeSecond(Watch watch) {
 		System.out.print("Секунды: ");
 		
-		watch.setSecond(Error.checkingTheRangeMinSec(Error.checkingTheInput()));
+		watch.setSecond(Check.checkingTheRangeMinSec(Check.checkingTheInput()));
 			
 	}
 	

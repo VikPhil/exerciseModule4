@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  * Класс проверяет правильность ввода данных
  * */
-public class Error {
+public class Check {
 	public static Scanner sc = new Scanner(System.in); 
 	
 	public static int checkingTheRangeMinSec(int num) {
