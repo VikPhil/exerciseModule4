@@ -16,7 +16,7 @@ public class Main {
 		
 		ListBooks lbooks = new ListBooks(new Book[5]);
 		
-		Initialisation init = new Initialisation(lbooks);
+		Initialization init = new Initialization(lbooks);
 		init.initBooks();
 		
 		lbooks.showBooks();

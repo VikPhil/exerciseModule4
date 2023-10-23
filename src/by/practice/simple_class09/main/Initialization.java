@@ -1,14 +1,14 @@
 package by.practice.simple_class09.main;
 
-public class Initialisation {
+public class Initialization {
 	
 	private ListBooks books;
 	
-	public Initialisation() {
+	public Initialization() {
 		
 	}
 	
-	public Initialisation(ListBooks books) {
+	public Initialization(ListBooks books) {
 		this.books = books;
 	}
 	

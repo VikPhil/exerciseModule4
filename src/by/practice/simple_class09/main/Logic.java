@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Logic {
 
-	public Scanner sc = new Scanner(System.in);;
+	public Scanner sc = new Scanner(System.in);
 	private String author;
 	private String publisher;
 	private int yearPublication;
